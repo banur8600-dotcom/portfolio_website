@@ -1,0 +1,535 @@
+ body 
+ {
+	 padding: 0;
+	 margin:0;
+	 box-sizing: border-box;
+	 overflow-x: hidden;
+	 font-family: 'Poppins', sans-serif;
+ }
+ .navbar 
+ {
+ 	width: 100%;
+  padding: 20px;
+  background: white;
+ }
+ 
+.navbar li a	 
+{
+	color: black;
+	font-size: 1.2rem;
+	font-weight: bold;
+	justify-content: space-around;
+}
+.navbar li a:hover  
+{
+	color: skyblue!important;
+  transition: 1s;
+  font-weight: bold;
+}
+.navbar-brand 
+{
+	font-weight: 600;
+	font-size: 2rem;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+	color: black;
+}
+.navbar-brand span{
+	color: skyblue;
+	font-weight: 600;
+}
+
+section{
+ 	scroll-margin-top: 100px;
+}
+
+
+                                     /*Home Section*/
+.hero-section 
+{
+	min-height: 100dvh;
+	background: white;
+	color: black;
+	font-weight: 300;
+	padding:30px;font-family: century;
+}
+.hero-section h1{
+	font-weight: 200;
+	margin-top: 50px;
+}
+.highlight {
+	color: black;
+	font-weight: bold;
+}
+.btn-custom {
+	background-color: skyblue;
+	color: #8b5e00;
+	border: 1px solid black;
+	border-radius: 100px;
+	padding: 10px;
+	letter-spacing: 1px;
+	font-size: 20px;
+	transition: 0.3s;
+} 
+.btn-custom:hover 
+{
+	transform: translateY(-3px);
+	color: black;
+	border: 1px solid white;
+}
+
+.Profile-img {
+  border-radius: 50%!important;
+  width: 270px;
+  height: 270px;
+  object-fit: cover;
+  margin-top: 80px;
+  transition: 0.3s;
+}
+.Profile-img:hover{
+	transform: translateY(-8px);
+}
+.social-icons i {
+	cursor: pointer;
+	font-size: 30px;
+	margin-right: 14px;
+	color: skyblue;
+	height: 45px;
+	width: 45px;
+	line-height: 45px;
+	text-align: center;
+	transition: 0.3s;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border:1px solid #8b5e00;
+	border-radius: 50%;
+}
+.social-icons i:hover{
+	transform: translateY(-5px);
+}
+
+
+
+
+                                  /*About Section*/
+
+.about{
+	justify-content: center;
+	align-items: center;
+	min-height: 100dvh;
+	font-family: century;
+	text-align: center;
+	width: 100%;
+	
+}
+.about p{
+	text-align: justify!important;
+}
+.about-skill{
+	margin-top: 10rem!important;
+}
+
+.about .progress-bar{
+ background-color: skyblue;
+}
+.about h2{
+	font-size: 2rem;
+	margin-top: 15%;
+	text-align:justify;
+}
+.gradiant-text{
+	text-align: justify;
+  letter-spacing: 2px;
+  margin-top: 2rem;
+  color: #555;
+  line-height: 1.6;
+  font-size: 1.2rem;
+}
+.about h5,h4{
+	text-align: justify;
+	font-size: 1.2rem;
+	color: skyblue;
+	font-weight: bold;
+}
+
+/*Education section*/
+.education{
+	min-height: 100dvh;
+	border-radius: 10px;
+	padding: 20px	;
+	font-family: century;
+}
+.education-card1{
+	border-radius:10px;
+	background:#fff;
+	transition: 0.3s;
+}
+.education-card1:hover{
+	transform: translateY(-5px);
+	background-color: skyblue;
+}
+.education-card2{
+	border-radius:10px;
+	background:#fff;
+	transition: 0.3s;
+}
+.education-card2:hover{
+	transform: translateY(-5px);
+	background-color: skyblue;
+}
+
+
+                                     /*Skills Section*/
+
+.skill{
+	min-height: 80dvh;
+	margin-top: 4rem;
+	font-family: century;
+}
+.skill-card1{
+	margin-top: 3rem;
+	border-radius: 10px;
+	border: 2px solid skyblue;
+	/*font-family: century;*/
+}
+.skill-card1 h5{
+	font-size: 1.2rem;
+	
+}
+
+
+/*Project section*/	
+.project{
+	height: 100dvh;
+	font-family: century;
+}
+.project .card{
+	transition: 0.3s;
+	border-radius: 10px;
+}
+.project .card:hover{
+	transform: translateY(-8px);
+	border: 1px solid skyblue;
+}
+.project .btn {
+	background: skyblue;
+	font-size: 18px;
+	font-weight: bold;
+	color:white;
+	border: 1px solid black;
+}
+.card-img-top{
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	transition: 0.4s;
+}
+
+.card-img-top:hover{
+	transform: scale(1.03);
+}
+
+
+												/*Hobbies section*/
+
+#hobby{
+	height: 70dvh;
+	font-family: century;
+
+}
+#hobby i{
+	font-size: 1.7rem;
+	margin-top: 1rem;
+
+}
+.hobby-card1{
+	border-radius: 10px;
+	transition: 0.3s;
+
+	background-color: skyblue;
+}
+#hobby h5{
+	font-size: 1rem;
+}
+.hobby-card1{
+  height: 30dvh;
+}
+.hobby-card2{
+  height: 30dvh;
+}
+.hobby-card2{
+	border-radius: 10px;
+	transition: 0.3s;
+	background-color: skyblue;
+}
+.hobby-card1:hover{
+	transform: translateY(-8px);
+	background-color: white;
+}
+.hobby-card2:hover{
+	transform: translateY(-8px);
+	background-color: white;
+}
+
+
+                            /*Contcat Section*/
+
+
+.contact{
+	min-height: 90dvh;
+	font-family: century;
+}
+
+.contact i{
+	font-size: 1.4rem;
+	background-color: skyblue;
+	color: white;
+	border-radius: 50%;
+	padding: 9px;
+	transition: 0.3s;
+}
+.contact i:hover{
+	transform: translateX(-8px);
+}
+.contact span{
+	width: 300px;
+	padding: 10px;
+}
+.contact p{
+	letter-spacing: 1px;
+	font-size: 1.2rem;
+}
+
+@keyframes slideUp{
+	0%{
+		opacity: 0;
+		transform: translateY(50px);
+	}
+	100%{
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.contact button{
+	transition: 0.3s;
+	border: none;
+	background: skyblue;
+	color: white;
+	padding: 10px;
+
+}
+.contact button:hover{
+	transform: scale(1.05);
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+}
+
+                                       /*Footer Section*/
+footer{
+	background: skyblue;
+	padding: 40px;
+	height: 50vh;
+	font-family: century;
+}
+footer p{
+ font-size: 1.2rem;
+}
+footer h5{
+	font-size: 2rem;
+	font-family: sans-serif;
+}
+footer .social-icons i{
+	color: whitesmoke;
+	
+}
+
+                                  /*Media Queries*/
+
+@media (width: 768px){
+ h5{
+ 	font-size: 	1.5rem;
+ }
+ h2{
+ 	font-size: 2rem;
+ }
+ section{
+ 	margin-top: 10rem;
+ }
+ p{
+ 	font-size: 2rem!important;
+ }
+ .navbar li a{
+ 	font-size: 2rem!important;
+ 	border: ;
+ }
+ .navbar-brand{
+ 	font-size: 3rem;
+ }
+ .Profile-img{
+ 	width: 400px;
+ 	height: 400px;
+ 	margin-top: 10px;
+ }
+ .about{
+ 	font-size: 1rem;
+ 	text-align: center;
+ }
+  .about-info h5{
+  	font-size: 2rem;
+  	letter-spacing: 1px;
+  }
+ .about-skill{
+ 	margin-top: 1.6rem!important;
+ }
+ .hero-section{
+ 	text-align: center;
+ }
+ #hobby{
+		margin-top: 25rem;
+	}
+	.contact{
+		margin-top: 20rem;
+		font-size: 2rem;
+	}
+ #hobby i{
+   margin-top: 2.7rem;
+ }
+ #hobby h5{
+ 	font-size: 1.6rem;
+ }
+  .skill-card1 h5{
+  	font-size: 2rem!important;
+  	/*margin-top: 20px!important;*/
+  }
+  .skill-card1{
+  	height: 150px;
+  }
+ .contact i{
+ 	text-align: justify;
+ }
+ .btn{
+ 	padding: 15px;
+ 	letter-spacing: 1px;
+ 	font-size: 1.4rem!important;
+ }
+ .project img{
+ 	height: 390px;
+ 	object-fit: cover;
+ }
+
+ footer p{
+ 	margin-top: 2rem;
+ 	font-size: 1.3rem;
+ }
+ footer .social-icons{
+ 	margin-top: 2rem;
+ }
+ footer h5{
+ 	font-family:cursive;
+ }
+ /*footer{
+ 	height: 60dvh;
+ 	width: 100%;
+ 	margin-right: 20px;
+ }*/
+}
+
+
+/*Mobile screen*/
+@media (max-width: 575px){
+ h5{
+ 	font-size: 	1.4rem;
+ }
+ p{
+ 	font-size: 1.2rem;
+ }
+
+ .about{
+ 	font-size: 1rem;
+ 	text-align: center;
+ 	margin-left: 5px;
+ }
+ .about img{
+ 	height: 250px;
+ 	width: 250px;
+ 	margin-top: -20px;
+ }
+ .about-skill{
+ 	margin-top: 1.6rem!important;
+ }
+ .hero-section{
+ 	text-align: center;
+ }
+ #hobby{
+		margin-top: 13rem;
+	}
+	.contact{
+		margin-top: 40rem;
+	}
+	
+	.contact span{
+		font-size: 1.2rem;
+	}
+ #hobby i{
+   margin-top: 2.7rem;
+ }
+ #hobby h5{
+ 	font-size: 1.4rem;
+ }
+  .skill-card1{
+  	width: 50dvh;
+  	height: 130px;
+  	text-align: center;
+  	margin-left: 10px;
+  }
+ .contact i{
+ 	text-align: justify;
+ }
+ 
+ footer p{
+ 	margin-top: 2rem;
+ 	font-size: 1.3rem;
+ }
+ footer .social-icons{
+ 	margin-top: 2rem;
+ }
+ footer h5{
+ 	font-family:cursive;
+ }
+ footer{
+ 	height: 60dvh;
+ 	width: 100%;
+ 	margin-right: 20px;
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
