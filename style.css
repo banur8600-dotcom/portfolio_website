@@ -478,7 +478,7 @@ footer .social-icons i{
  	font-size: 1.4rem;
  }
   .skill-card1{
-  	width: 280px!important;
+  	width:100%!important;
   	height: 130px;
   	text-align: center;
   	margin-left: 10px;
